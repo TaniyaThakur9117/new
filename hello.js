@@ -1,9 +1,12 @@
-let num = 2
-if(num%2==0)
+// const prompt = require('prompt-sync')();
+// const name = prompt("What is your name? ");
+// console.log("Hello, " + name + "!");
+
+function square(x)
 {
-    console.log("Even no")
+    let ans=0;
+    ans = x*x;
+    return ans
 }
-else
-{
-    console.log("Odd no")
-}
+
+console.log("The answer is " + square(9));
