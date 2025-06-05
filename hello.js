@@ -2,11 +2,25 @@
 // const name = prompt("What is your name? ");
 // console.log("Hello, " + name + "!");
 
-function square(x)
+// function square(x)
+// {
+//     let ans=0;
+//     ans = x*x;
+//     return ans
+// }
+
+// console.log("The answer is " + square(9));
+
+//callback function
+function greet(name,callback)
 {
-    let ans=0;
-    ans = x*x;
-    return ans
+    console.log("Hello " + name);
+    callback();
 }
 
-console.log("The answer is " + square(9));
+function hello()
+{
+    console.log("Hello world!")
+}
+
+greet("Taniya",hello);
