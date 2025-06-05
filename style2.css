@@ -28,6 +28,7 @@ div{
 {
     display: flex;
     flex-direction: row;
+    height:500px;
 }
 
 #h3
