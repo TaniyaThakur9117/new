@@ -1,0 +1,38 @@
+h1
+{
+    text-align: center;
+    background-color: bisque;
+}
+
+div{
+    background-color: rgb(0, 0, 50);
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+}
+
+.margin
+{
+    margin-left: 70px;
+}
+
+.foot
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#h3
+{
+    background-color: rgb(0, 0, 50);
+    color:white;
+    height: 200px;
+}
